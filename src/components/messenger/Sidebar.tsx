@@ -22,8 +22,8 @@ export default function Sidebar({ activeTab, onTabChange, unreadChats, unreadNot
   return (
     <div className="flex flex-col items-center py-6 px-2 gap-2 glass border-r border-white/5 w-16 min-h-screen">
       <div className="mb-4 flex flex-col items-center">
-        <div className="w-9 h-9 gradient-bg rounded-xl flex items-center justify-center neon-glow animate-pulse-neon">
-          <span className="text-white font-display font-bold text-sm">N</span>
+        <div className="w-9 h-9 rounded-xl flex items-center justify-center neon-glow animate-pulse-neon" style={{background: 'linear-gradient(135deg, #FF8C00, #FFA500)'}}>
+          <span className="text-xl leading-none">🍊</span>
         </div>
       </div>
 

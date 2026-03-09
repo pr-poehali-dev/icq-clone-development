@@ -38,7 +38,7 @@ export default function ChatWindow({ chatId, onCall }: ChatWindowProps) {
       <div className="flex-1 flex flex-col items-center justify-center mesh-bg">
         <div className="animate-float text-center">
           <div className="text-8xl mb-6 filter drop-shadow-lg">💬</div>
-          <h2 className="font-display text-2xl font-bold gradient-text mb-2">ВЫБЕРИТЕ ЧАТ</h2>
+          <h2 className="font-display text-2xl font-bold gradient-text mb-2">🍊 СЫТЫЙ АПЕЛЬСИН</h2>
           <p className="text-muted-foreground text-sm">Выберите диалог чтобы начать общение</p>
         </div>
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
